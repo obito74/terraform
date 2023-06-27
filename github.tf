@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   required_providers {
     github = {
       source  = "integrations/github"
@@ -8,7 +8,7 @@ terraform {
 }
 # Configure the GitHub Provider
 provider "github" {
-    token = "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"
+    token = "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"
 }
 
 resource "github_repository" "example" {
@@ -17,3 +17,4 @@ resource "github_repository" "example" {
 
   visibility = "public"
 }
+*/
