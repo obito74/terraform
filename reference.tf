@@ -1,3 +1,6 @@
+#creating ec2, eip, and security group with cross-account resource attributes. 
+#assigning the created eip to the ec2 instance and security group
+
 provider "aws" {
 
   profile = "default"
