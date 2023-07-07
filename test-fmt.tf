@@ -1,3 +1,4 @@
+#run the command terraform fmt
 provider "aws" {
   profile = "default"
 }
